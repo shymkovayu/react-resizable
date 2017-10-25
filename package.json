@@ -1,5 +1,5 @@
 {
-  "name": "react-resizable",
+  "name": "react-resizable-ext",
   "version": "1.7.5",
   "description": "An extension for Samuel Reed's 'react-resizable' to handle doubleClick event to reset width.",
   "main": "index.js",
