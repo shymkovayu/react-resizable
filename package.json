@@ -1,7 +1,7 @@
 {
   "name": "react-resizable",
   "version": "1.7.5",
-  "description": "A component that is resizable with handles.",
+  "description": "An extension for Samuel Reed's 'react-resizable' to handle doubleClick event to reset width.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.jsx lib/ test/; flow",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STRML/react-resizable.git"
+    "url": "git@github.com:shymkovayu/react-resizable.git"
   },
   "keywords": [
     "react",
@@ -59,8 +59,8 @@
     "react-draggable": "^2.2.6 || ^3.0.3"
   },
   "peerDependencies": {
-    "react": "0.14.x || 15.x || 16.x",
-    "react-dom": "0.14.x || 15.x || 16.x"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
